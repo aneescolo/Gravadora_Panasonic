@@ -8,6 +8,7 @@ public class Audio_Manager : MonoBehaviour
     // Singleton
     public static Audio_Manager instance;
 
+    [Tooltip("Array de Btns amb l'escrip de Sound")]
     // Col.lecció d'elements sound (script)
     public Sound[] soundsList;
 
@@ -34,15 +35,29 @@ public class Audio_Manager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void PlaySong(string songName)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
+        // Busquem el que tingui el mateix nom que hem passat
+        foreach (Sound currentSound in soundsList)
+        {
+            if (currentSound.songName == songName)
+            {
+                currentSound.audioSource.Play();
+                break;
+            }
+        }
+    }   
+    
+    public void StopSong(string songName)
     {
-        
+        // Busquem el que tingui el mateix nom que hem passat
+        foreach (Sound currentSound in soundsList)
+        {
+            if (currentSound.songName == songName)
+            {
+                currentSound.audioSource.Stop();
+                break;
+            }
+        }
     }
 }
