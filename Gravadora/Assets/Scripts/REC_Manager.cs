@@ -50,6 +50,34 @@ public class REC_Manager : MonoBehaviour
             yield return null;
         }
     }
+    
+    IEnumerator Coroutine_PLAY()
+    {
+        int current_index = 0;
+        int maxIndex = times_list.Count;
+
+        while (isPLAY_Active)
+        {
+            counter += Time.deltaTime;
+            
+            if (current_index < maxIndex)
+            {
+                if (counter >= times_list[current_index])
+                {
+                    Audio_Manager.instance.PlaySong(soundNames_list[current_index]);
+                    ++current_index;
+                    counter = 0;
+                }
+            }
+            else
+            {
+                isPLAY_Active = false;
+                yield break;
+            }
+            
+            yield return null;
+        }
+    }
 
     public void AddNewTime()
     {
