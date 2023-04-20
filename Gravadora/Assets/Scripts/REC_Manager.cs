@@ -7,6 +7,8 @@ public class REC_Manager : MonoBehaviour
     [Header("----- Variables -----")]
     public bool isREC_Active;
     public bool isPLAY_Active;
+    public bool isLOOP_Active;
+    public bool isPAUSE_Active;
 
     [Tooltip("Variable float que respresenta el contador (temps) desde que cliquem un btn fins que cliquem el seguent")]
     public float counter;
@@ -51,6 +53,19 @@ public class REC_Manager : MonoBehaviour
         }
     }
     
+    public void Activate_MODE_PLAY()
+    {
+        isPLAY_Active = true;
+        
+        currentCoroutine = Coroutine_PLAY();
+        StartCoroutine(currentCoroutine);
+    }
+    
+    public void Activate_PAUSE()
+    {
+        isPAUSE_Active = !isPAUSE_Active;
+    }
+
     IEnumerator Coroutine_PLAY()
     {
         int current_index = 0;
@@ -58,12 +73,17 @@ public class REC_Manager : MonoBehaviour
 
         while (isPLAY_Active)
         {
-            counter += Time.deltaTime;
-            
+            if (!isPAUSE_Active)
+            {
+                counter += Time.deltaTime;
+            }
+
             if (current_index < maxIndex)
             {
                 if (counter >= times_list[current_index])
                 {
+                    Debug.Log(soundNames_list[current_index] + "/" + times_list[current_index]);
+
                     Audio_Manager.instance.PlaySong(soundNames_list[current_index]);
                     ++current_index;
                     counter = 0;
@@ -71,8 +91,16 @@ public class REC_Manager : MonoBehaviour
             }
             else
             {
-                isPLAY_Active = false;
-                yield break;
+                if (isLOOP_Active)
+                {
+                    counter = 0;
+                    current_index = 0;
+                }
+                else
+                {
+                    isPLAY_Active = false;
+                    yield break;
+                }
             }
             
             yield return null;
