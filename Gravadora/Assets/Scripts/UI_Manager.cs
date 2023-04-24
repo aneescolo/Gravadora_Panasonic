@@ -6,24 +6,40 @@ public class UI_Manager : MonoBehaviour
 {
 
     [Header("----- Panels -----")]
-    [SerializeField] private GameObject sound_custon_panel;
+    [SerializeField] private GameObject sound_custom_panel;
+    private bool opencloseCutomPanel;
     
-    [Header("----- Web Request -----")]
-    public List<Sound> soudlist = new List<Sound>();
+    [Header("----- Sounds List -----")]
     public GameObject content_soud_list;
     public Item_sound_list item_soud_list;
 
+    public void OpenCutsomPanel()
+    {
+        if (opencloseCutomPanel)
+        {
+            sound_custom_panel.SetActive(false);
+        }
+        else
+        {
+            sound_custom_panel.SetActive(true);
+        }
+        
+        opencloseCutomPanel = !opencloseCutomPanel;    
+    }
     
     public void Refresh_Sound_List()
     {
         Clean_Sound_List();
 
-        foreach (Sound score in soudlist)
+        foreach (Sound score in Audio_Manager.instance.soundsList)
         {
-            Item_sound_list _item_sound_list;
-            _item_sound_list = Instantiate(item_soud_list, content_soud_list.transform);
-            _item_sound_list.songName = score.songName;
-            _item_sound_list.audioClip = score.audioClip;
+            if (!score.active)
+            {
+                Item_sound_list _item_sound_list;
+                _item_sound_list = Instantiate(item_soud_list, content_soud_list.transform);
+                _item_sound_list.songName = score.songName;
+                _item_sound_list.audioClip = score.audioClip; 
+            }
         }
     }
 

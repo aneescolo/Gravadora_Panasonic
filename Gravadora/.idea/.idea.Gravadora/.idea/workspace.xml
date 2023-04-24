@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Custom_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item_sound_list.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -72,6 +73,12 @@
       <workItem from="1681829698931" duration="1063000" />
       <workItem from="1681830793283" duration="19000" />
       <workItem from="1682012827401" duration="4185000" />
+      <workItem from="1682341025139" duration="6000" />
+      <workItem from="1682341044218" duration="26000" />
+      <workItem from="1682341095900" duration="207000" />
+      <workItem from="1682341336122" duration="16000" />
+      <workItem from="1682341543774" duration="368000" />
+      <workItem from="1682348131059" duration="5090000" />
     </task>
     <servers />
   </component>

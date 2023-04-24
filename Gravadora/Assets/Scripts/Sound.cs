@@ -19,6 +19,8 @@ public class Sound : MonoBehaviour
     public bool loop;
 
     public bool mute;
+    
+    public bool active;
 
     public AudioSource audioSource;
 }

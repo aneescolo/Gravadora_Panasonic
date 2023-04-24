@@ -64,6 +64,11 @@ public class REC_Manager : MonoBehaviour
     public void Activate_PAUSE()
     {
         isPAUSE_Active = !isPAUSE_Active;
+    }  
+      
+    public void Activate_LOOP()
+    {
+        isLOOP_Active = !isLOOP_Active;
     }
 
     IEnumerator Coroutine_PLAY()
@@ -118,14 +123,19 @@ public class REC_Manager : MonoBehaviour
         }
     } 
     
-    public void AddNewSound(string songName)
-    {
+    public void AddNewSound(GameObject button)
+    {    
         // Fem la comporvació per seguretat que el REC és actiu
         if (isREC_Active)
         {
-            soundNames_list.Add(songName);
+            soundNames_list.Add(button.GetComponent<Sound>().songName);
             
             counter = 0;
         }
+    }
+    
+    public void EXIT()
+    {
+         Application.Quit();
     }
 }
