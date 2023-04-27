@@ -23,4 +23,16 @@ public class Sound : MonoBehaviour
     public bool active;
 
     public AudioSource audioSource;
+    
+    public void Activate_Deactivate_MODE_MUTE()
+    { 
+        mute = !mute; 
+        audioSource.mute = mute; 
+    }    
+    
+    public void Activate_Deactivate_MODE_LOOP()
+    { 
+        loop = !loop; 
+        audioSource.loop = loop; 
+    }  
 }

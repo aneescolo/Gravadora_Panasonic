@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class UI_Manager : MonoBehaviour
@@ -13,14 +14,21 @@ public class UI_Manager : MonoBehaviour
     public GameObject content_soud_list;
     public Item_sound_list item_soud_list;
 
+    [Header("----- Custom Panel -----")] 
+    public int selectedSound;
+    public Sound selectedSoundBtn;
+    public TMP_Text selectedSoundTxt;
+
     public void OpenCutsomPanel()
     {
         if (opencloseCutomPanel)
         {
+            Custom_Manager.instance.ChangeSound_VOLUME(selectedSoundBtn);
             sound_custom_panel.SetActive(false);
         }
         else
         {
+            Custom_Manager.instance.ChargeSound_VOLUME(selectedSoundBtn);
             sound_custom_panel.SetActive(true);
         }
         
