@@ -23,6 +23,6 @@ public class Item_sound_list : MonoBehaviour
     
     private void Refresh_Selected_Sound()
     {
-    
+        Custom_Manager.instance.RefreshSelectedSoundTxt(songName);
     }
 }

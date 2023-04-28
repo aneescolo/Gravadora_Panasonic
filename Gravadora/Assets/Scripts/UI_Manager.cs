@@ -35,6 +35,17 @@ public class UI_Manager : MonoBehaviour
         opencloseCutomPanel = !opencloseCutomPanel;    
     }
     
+    public void RefreshCurrentSound()
+    {
+        switch (selectedSound)
+        {
+            case 1:
+            {
+                break;
+            }
+        }
+    }
+    
     public void Refresh_Sound_List()
     {
         Clean_Sound_List();

@@ -1467,8 +1467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68df8a8729ce1b04ca7d007aac9cda29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedBtn: 0
   _sliderMaster: {fileID: 230653492}
   _sliderSound: {fileID: 1841293723}
+  selectedSound_txt: {fileID: 265760805}
+  currentSound_txt: {fileID: 622684294}
 --- !u!1 &345921987
 GameObject:
   m_ObjectHideFlags: 0
@@ -4476,23 +4479,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1077341691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
+    m_Top: 5
+    m_Bottom: 5
   m_ChildAlignment: 1
-  m_Spacing: 25
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
+  m_StartCorner: 0
+  m_StartAxis: 1
+  m_CellSize: {x: 500, y: 100}
+  m_Spacing: {x: 25, y: 25}
+  m_Constraint: 1
+  m_ConstraintCount: 1
 --- !u!1 &1142958571
 GameObject:
   m_ObjectHideFlags: 0
@@ -7850,7 +7851,7 @@ MonoBehaviour:
   content_soud_list: {fileID: 1077341691}
   item_soud_list: {fileID: 2876265986894357374, guid: b2a248f7140edfd4ea14e220646c7a32, type: 3}
   selectedSound: 0
-  selectedSoundBtn: {fileID: 0}
+  selectedSoundBtn: {fileID: 1575471883}
   selectedSoundTxt: {fileID: 0}
 --- !u!1 &2069102273
 GameObject:

@@ -1,6 +1,8 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +14,9 @@ public class Custom_Manager : MonoBehaviour
 
     [SerializeField] private Slider _sliderMaster;
     [SerializeField] private Slider _sliderSound;
+    
+    [SerializeField] private TMP_Text selectedSound_txt;
+    [SerializeField] private TMP_Text currentSound_txt;
 
     private void Awake()
     {
@@ -27,7 +32,6 @@ public class Custom_Manager : MonoBehaviour
 
     void Start()
     {
-        
         if (PlayerPrefs.HasKey("MusicVolume"))
         {
             StartCoroutine(ChargeSavedMusicVolume());
@@ -70,6 +74,9 @@ public class Custom_Manager : MonoBehaviour
         ChangeMaster_VOLUME(PlayerPrefs.GetFloat("MasterVolume"));
         _sliderMaster.value = PlayerPrefs.GetFloat("MasterVolume");
     }
-    
-    
+
+    public void RefreshSelectedSoundTxt(string soundName)
+    {
+        selectedSound_txt.text = soundName;
+    }
 }
