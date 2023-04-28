@@ -10,8 +10,6 @@ public class Custom_Manager : MonoBehaviour
 {
     public static Custom_Manager instance;
     
-    [SerializeField] private int selectedBtn;
-
     [SerializeField] private Slider _sliderMaster;
     [SerializeField] private Slider _sliderSound;
     
@@ -78,5 +76,10 @@ public class Custom_Manager : MonoBehaviour
     public void RefreshSelectedSoundTxt(string soundName)
     {
         selectedSound_txt.text = soundName;
+    }    
+    
+    public void RefreshCurrentSoundTxt(string soundName)
+    {
+        currentSound_txt.text = soundName;
     }
 }

@@ -36,6 +36,7 @@ public class REC_Manager : MonoBehaviour
             // Iniciem la coroutine
             currentCoroutine = Coroutine_REC_Activated();
             StartCoroutine(currentCoroutine);
+            Check_Sound_MODE_LOOP();
         }
         else
         {
@@ -49,6 +50,42 @@ public class REC_Manager : MonoBehaviour
         while (isREC_Active)
         {
             counter += Time.deltaTime;
+            yield return null;
+        }
+    }
+    
+    private void Check_Sound_MODE_LOOP()
+    {
+        foreach (Sound score in Audio_Manager.instance.soundsList)
+        {
+            if (score.loop && score.active && !score.mute)
+            {
+                Audio_Manager.instance.StopSong(score.songName);
+                currentCoroutine = Coroutine_LOOP(score);
+                StartCoroutine(currentCoroutine);
+            }
+        }
+    }
+    
+    IEnumerator Coroutine_LOOP(Sound loopedSound)
+    {
+        float timer = 0;
+
+        while (isREC_Active)
+        {
+            timer += Time.deltaTime;
+            
+            if (timer >= loopedSound.audioClip.length + 0.5f)
+            {
+                soundNames_list.Add(loopedSound.songName);
+                times_list.Add(counter);
+
+                Audio_Manager.instance.PlaySong(loopedSound.songName);
+                
+                timer = 0;
+                counter = 0;
+            }
+            
             yield return null;
         }
     }
@@ -110,12 +147,12 @@ public class REC_Manager : MonoBehaviour
             
             yield return null;
         }
-    }
-
-    public void AddNewTime()
+    } 
+    
+    public void AddNewTime(GameObject button)
     {
         // Fem la comporvació per seguretat que el REC és actiu
-        if (isREC_Active)
+        if (isREC_Active && !button.GetComponent<Sound>().mute)
         {
             times_list.Add(counter);
             
@@ -126,7 +163,7 @@ public class REC_Manager : MonoBehaviour
     public void AddNewSound(GameObject button)
     {    
         // Fem la comporvació per seguretat que el REC és actiu
-        if (isREC_Active)
+        if (isREC_Active && !button.GetComponent<Sound>().mute)
         {
             soundNames_list.Add(button.GetComponent<Sound>().songName);
             

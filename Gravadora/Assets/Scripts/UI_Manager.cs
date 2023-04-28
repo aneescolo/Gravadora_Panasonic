@@ -11,13 +11,13 @@ public class UI_Manager : MonoBehaviour
     private bool opencloseCutomPanel;
     
     [Header("----- Sounds List -----")]
-    public GameObject content_soud_list;
-    public Item_sound_list item_soud_list;
+    [SerializeField] private GameObject content_soud_list;
+    [SerializeField] private Item_sound_list item_soud_list;
 
     [Header("----- Custom Panel -----")] 
-    public int selectedSound;
-    public Sound selectedSoundBtn;
-    public TMP_Text selectedSoundTxt;
+    private int selectedSound = 1;
+    private Sound selectedSoundBtn;
+    [SerializeField] private TMP_Text selectedSoundTxt;
 
     public void OpenCutsomPanel()
     {
@@ -28,21 +28,41 @@ public class UI_Manager : MonoBehaviour
         }
         else
         {
+            selectedSound = 1;
+            selectedSoundTxt.text = $"{selectedSound}";
+            selectedSoundBtn = Audio_Manager.instance.soundsList[selectedSound - 1];
             Custom_Manager.instance.ChargeSound_VOLUME(selectedSoundBtn);
+            Custom_Manager.instance.RefreshCurrentSoundTxt(selectedSoundBtn.songName);
             sound_custom_panel.SetActive(true);
         }
         
         opencloseCutomPanel = !opencloseCutomPanel;    
     }
-    
-    public void RefreshCurrentSound()
+
+    private void RefreshCurrentSound()
     {
-        switch (selectedSound)
+        selectedSoundBtn = Audio_Manager.instance.soundsList[selectedSound - 1];
+        Custom_Manager.instance.ChargeSound_VOLUME(selectedSoundBtn);
+        Custom_Manager.instance.RefreshCurrentSoundTxt(selectedSoundBtn.songName);
+    }
+
+    public void AddIndexSound()
+    {
+        if (selectedSound != 9)
         {
-            case 1:
-            {
-                break;
-            }
+            ++selectedSound;
+            selectedSoundTxt.text = $"{selectedSound}";
+            RefreshCurrentSound();
+        }
+    }    
+    
+    public void TakeIndexSound()
+    {
+        if (selectedSound != 1)
+        {
+            --selectedSound;
+            selectedSoundTxt.text = $"{selectedSound}";
+            RefreshCurrentSound();
         }
     }
     
