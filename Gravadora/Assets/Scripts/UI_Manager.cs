@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UI_Manager : MonoBehaviour
 {
@@ -54,6 +56,12 @@ public class UI_Manager : MonoBehaviour
             selectedSoundTxt.text = $"{selectedSound}";
             RefreshCurrentSound();
         }
+        else
+        {
+            selectedSound = 1;
+            selectedSoundTxt.text = $"{selectedSound}";
+            RefreshCurrentSound();
+        }
     }    
     
     public void TakeIndexSound()
@@ -61,6 +69,12 @@ public class UI_Manager : MonoBehaviour
         if (selectedSound != 1)
         {
             --selectedSound;
+            selectedSoundTxt.text = $"{selectedSound}";
+            RefreshCurrentSound();
+        }
+        else
+        {
+            selectedSound = 9;
             selectedSoundTxt.text = $"{selectedSound}";
             RefreshCurrentSound();
         }
