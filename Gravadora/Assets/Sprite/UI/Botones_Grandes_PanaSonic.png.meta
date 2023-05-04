@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb3135fbd536eab47bb2212bbaea3c6f
-      internalID: -1464545527
+      spriteID: a0adcbabb7b8eb440ba05e18a7e9b69a
+      internalID: 294626155
       vertices: []
       indices: 
       edges: []
@@ -140,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f91752a7ed248c94d8fe95d223217d2e
-      internalID: -566193498
+      spriteID: 128c331d5b3c2f047be3e458f1db18e1
+      internalID: 387001692
       vertices: []
       indices: 
       edges: []
@@ -161,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1a4cc04d56b3fa4ea3fe487616d3fad
-      internalID: -838906514
+      spriteID: 7018783a4c6c46d418295fe26d52a96f
+      internalID: -144273220
       vertices: []
       indices: 
       edges: []
@@ -182,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c05eebbc3e76b04586c1ba885e5ebcd
-      internalID: 45314669
+      spriteID: dd957512041333f44809720db205f153
+      internalID: -807498362
       vertices: []
       indices: 
       edges: []
@@ -203,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c318f239a7821cb41b215369fe4af384
-      internalID: -1343213460
+      spriteID: aea4c9ae0163b6a498d2cbd6eb5b82c8
+      internalID: -1942063143
       vertices: []
       indices: 
       edges: []
@@ -224,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aa2d89f12d20ef40a8062d4509269e2
-      internalID: 1768857481
+      spriteID: a4a7ae42207815f4d857466fd2735a69
+      internalID: 1779961668
       vertices: []
       indices: 
       edges: []
@@ -245,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 669890551e6937244b3f7fa70bc061f2
-      internalID: -847162245
+      spriteID: 61fe5f93393afd240bc888e9244b96f2
+      internalID: 553283207
       vertices: []
       indices: 
       edges: []
@@ -266,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 698f93aa8c41d20478eda3bebb7643a4
-      internalID: -1239032770
+      spriteID: db8159139090f744a86ee413312e73b4
+      internalID: 33759105
       vertices: []
       indices: 
       edges: []
@@ -287,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acb4f050a372aea4ca8afa3a2d49bcab
-      internalID: -1478402826
+      spriteID: 88210ab637d26f342a1201fd88f8fb9a
+      internalID: 1144589265
       vertices: []
       indices: 
       edges: []
@@ -308,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954c076a8bbeb2e408601d49ef4ef12d
-      internalID: -1989756485
+      spriteID: b038b2ede01aa8c43b9b2a3876f28b10
+      internalID: -1694041023
       vertices: []
       indices: 
       edges: []
@@ -329,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1beb8af80f5942441ae9f42c9c2bd968
-      internalID: 1789728673
+      spriteID: e6b4ef6216e217841b702a45f87732b7
+      internalID: -1260331267
       vertices: []
       indices: 
       edges: []
@@ -350,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2db97f581c33e864baddc60765b6373f
-      internalID: 1635776802
+      spriteID: 82d0b25a8e7ecc14491b81b64be05d31
+      internalID: -765799728
       vertices: []
       indices: 
       edges: []
@@ -371,8 +395,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25b228fa7c14b1f4cb3a09ef5e4c69ef
-      internalID: 1215138772
+      spriteID: 03b492544a3439a4fa1e96285c1cc2ac
+      internalID: -2049809110
       vertices: []
       indices: 
       edges: []
@@ -392,8 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8eac632d5a481124b98fdab6cac2b17b
-      internalID: -309344058
+      spriteID: b4a7cc5aa303edd429a1dda1bc14fb56
+      internalID: 1841878220
       vertices: []
       indices: 
       edges: []
@@ -413,8 +437,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6928620a31b64d34aae078744d61f0a7
-      internalID: -340842637
+      spriteID: bf0da6e0e6a112841a07b1415e6c5a50
+      internalID: 1245940713
       vertices: []
       indices: 
       edges: []
@@ -434,50 +458,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89d453708b0845a418f2c6d1e2c5cc7e
-      internalID: -1550161117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Botones_Grandes_PanaSonic_16
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 76
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 964aaf27cfbc0044bbdf010a7a5b2dfe
-      internalID: 1194139121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Botones_Grandes_PanaSonic_17
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 76
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5b0ed2d26f586543a89c83780e441db
-      internalID: -1979958652
+      spriteID: 1ef5e087fe335dd4fb8471d77ed15e2d
+      internalID: 1495262982
       vertices: []
       indices: 
       edges: []
@@ -497,8 +479,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d348af48a767f2d48871b0507ee21bd0
-      internalID: -970700252
+      spriteID: 0672f694681a74c42ba65800a3adbdf1
+      internalID: -15684138
       vertices: []
       indices: 
       edges: []
@@ -518,8 +500,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3776f1691eb5c87498ce9adc15deefa0
-      internalID: 1792627354
+      spriteID: dcc40fbb7640ef44fb8dfeeb83756329
+      internalID: -671372723
       vertices: []
       indices: 
       edges: []
@@ -539,8 +521,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61d704521782a4542bb1a43918aadd51
-      internalID: -1854877092
+      spriteID: c020306b6c5b65a4a92362ad4fc68481
+      internalID: 817490588
       vertices: []
       indices: 
       edges: []
@@ -560,50 +542,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d64ea4e79fd194991b79e28c84f8c1
-      internalID: -2115636091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Botones_Grandes_PanaSonic_22
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 58
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a366b785e72f54d418c2c0b645a225d8
-      internalID: -431289555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Botones_Grandes_PanaSonic_23
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 58
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7919a9c7417455c4c87481b6fd1c236f
-      internalID: -246477204
+      spriteID: a2650feae8e42574098dbd404ec3c279
+      internalID: -2054779944
       vertices: []
       indices: 
       edges: []
@@ -623,8 +563,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb724a897c312214e8c8fac31c7764f6
-      internalID: 616554911
+      spriteID: b3663a4a26449724a82c9021937ec7de
+      internalID: -1771439506
       vertices: []
       indices: 
       edges: []
@@ -644,8 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a479c394f6fca034280e7f902ed5c5bf
-      internalID: -1760541395
+      spriteID: 926d8f12fb61eac498da543f7107d1a1
+      internalID: -415624648
       vertices: []
       indices: 
       edges: []
@@ -665,8 +605,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8b8df5caac230742af6dffb60d81b93
-      internalID: 1038308330
+      spriteID: eb55ce977eeb1554198f629ba6d28985
+      internalID: -1132013882
       vertices: []
       indices: 
       edges: []
@@ -686,8 +626,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18876b6a22f5da547b2da63f48bb98ab
-      internalID: 1349790912
+      spriteID: e9db670d62113d5488413c8fc28862e7
+      internalID: -281885148
       vertices: []
       indices: 
       edges: []
@@ -707,8 +647,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8316ca7822385b046b78fe65e507bf9e
-      internalID: 568461930
+      spriteID: e6d0d1010bb0960458d2b45119fec02a
+      internalID: -63678594
       vertices: []
       indices: 
       edges: []
@@ -728,8 +668,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c703c18196b237940acd8f414fd5c6e0
-      internalID: -38583623
+      spriteID: 34e1b97c4591c7f47946d01fa6b8a150
+      internalID: 558330474
       vertices: []
       indices: 
       edges: []
@@ -749,8 +689,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66088f65617513e4a89464c724310a38
-      internalID: 1247431272
+      spriteID: 2688cfd263fdd564c9a08234f4b3e33a
+      internalID: 1325120655
       vertices: []
       indices: 
       edges: []
@@ -770,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2250a869fd62c34686e6d56f7958b4d
-      internalID: -1808562850
+      spriteID: 126c70759036e5546980ca5ebe98a765
+      internalID: -1506803023
       vertices: []
       indices: 
       edges: []
@@ -791,8 +731,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d60b6abee0e62549ad5be6e9141f1b1
-      internalID: -1351145774
+      spriteID: 8eefee3a444ba584698166b78ef4729c
+      internalID: -1790456854
       vertices: []
       indices: 
       edges: []
@@ -807,13 +747,13 @@ TextureImporter:
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 9, y: 9, z: 9, w: 9}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21c727b487dda8343aee0384d742225e
-      internalID: -564359736
+      spriteID: 9fd38acca6990784dbfa58b844fc03b4
+      internalID: -1244819358
       vertices: []
       indices: 
       edges: []
@@ -822,30 +762,30 @@ TextureImporter:
       name: Botones_Grandes_PanaSonic_34
       rect:
         serializedVersion: 2
-        x: 199
+        x: 189
         y: 2
-        width: 29
+        width: 49
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 24, y: 8, z: 24, w: 8}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c3e565c674bc6c489091d2de022bf82
-      internalID: -978877298
+      spriteID: 4536d67a940c33f45b2b503465fe348f
+      internalID: -1642438726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Botones_Grandes_PanaSonic_35
+      name: Botones_Grandes_PanaSonic_16
       rect:
         serializedVersion: 2
         x: 189
         y: 2
-        width: 10
+        width: 7
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -854,19 +794,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d3afbaaedf554647b8363c98c190945
-      internalID: -1618897576
+      spriteID: aa8bba44f0efea043a46b46b1a37bbef
+      internalID: 859965077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Botones_Grandes_PanaSonic_36
+      name: Botones_Grandes_PanaSonic_17
       rect:
         serializedVersion: 2
-        x: 228
+        x: 232
         y: 2
-        width: 10
+        width: 6
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -875,8 +815,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16d9091e4ce1dd741a7014411da6b5e1
-      internalID: 1821524469
+      spriteID: dd55f5aef3e22f440bcbdb19a549c7c6
+      internalID: -634762245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0649e5cd484d565418356aa226510996
+      internalID: 1199764286
       vertices: []
       indices: 
       edges: []
@@ -892,43 +853,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Botones_Grandes_PanaSonic_30: 1247431272
-      Botones_Grandes_PanaSonic_3: 45314669
-      Botones_Grandes_PanaSonic_5: 1768857481
-      Botones_Grandes_PanaSonic_16: 1194139121
-      Botones_Grandes_PanaSonic_10: 1789728673
-      Botones_Grandes_PanaSonic_21: -2115636091
-      Botones_Grandes_PanaSonic_22: -431289555
-      Botones_Grandes_PanaSonic_6: -847162245
-      Botones_Grandes_PanaSonic_25: -1760541395
-      Botones_Grandes_PanaSonic_29: -38583623
-      Botones_Grandes_PanaSonic_8: -1478402826
-      Botones_Grandes_PanaSonic_23: -246477204
-      Botones_Grandes_PanaSonic_7: -1239032770
-      Botones_Grandes_PanaSonic_33: -564359736
-      Botones_Grandes_PanaSonic_36: 1821524469
-      Botones_Grandes_PanaSonic_34: -978877298
-      Botones_Grandes_PanaSonic_4: -1343213460
-      Botones_Grandes_PanaSonic_2: -838906514
-      Botones_Grandes_PanaSonic_12: 1215138772
-      Botones_Grandes_PanaSonic_13: -309344058
-      Botones_Grandes_PanaSonic_24: 616554911
-      Botones_Grandes_PanaSonic_11: 1635776802
-      Botones_Grandes_PanaSonic_35: -1618897576
-      Botones_Grandes_PanaSonic_18: -970700252
-      Botones_Grandes_PanaSonic_17: -1979958652
-      Botones_Grandes_PanaSonic_28: 568461930
-      Botones_Grandes_PanaSonic_20: -1854877092
-      Botones_Grandes_PanaSonic_14: -340842637
-      Botones_Grandes_PanaSonic_9: -1989756485
-      Botones_Grandes_PanaSonic_32: -1351145774
-      Botones_Grandes_PanaSonic_1: -566193498
-      Botones_Grandes_PanaSonic_0: -1464545527
-      Botones_Grandes_PanaSonic_19: 1792627354
-      Botones_Grandes_PanaSonic_15: -1550161117
-      Botones_Grandes_PanaSonic_26: 1038308330
-      Botones_Grandes_PanaSonic_27: 1349790912
-      Botones_Grandes_PanaSonic_31: -1808562850
+      Botones_Grandes_PanaSonic_30: 1325120655
+      Botones_Grandes_PanaSonic_3: -807498362
+      Botones_Grandes_PanaSonic_5: 1779961668
+      Botones_Grandes_PanaSonic_16: 859965077
+      Botones_Grandes_PanaSonic_10: -1260331267
+      Botones_Grandes_PanaSonic_21: -2054779944
+      Botones_Grandes_PanaSonic_22: 1199764286
+      Botones_Grandes_PanaSonic_6: 553283207
+      Botones_Grandes_PanaSonic_25: -415624648
+      Botones_Grandes_PanaSonic_29: 558330474
+      Botones_Grandes_PanaSonic_8: 1144589265
+      Botones_Grandes_PanaSonic_23: -1353151654
+      Botones_Grandes_PanaSonic_7: 33759105
+      Botones_Grandes_PanaSonic_33: -1244819358
+      Botones_Grandes_PanaSonic_34: -1642438726
+      Botones_Grandes_PanaSonic_4: -1942063143
+      Botones_Grandes_PanaSonic_2: -144273220
+      Botones_Grandes_PanaSonic_12: -2049809110
+      Botones_Grandes_PanaSonic_13: 1841878220
+      Botones_Grandes_PanaSonic_24: -1771439506
+      Botones_Grandes_PanaSonic_11: -765799728
+      Botones_Grandes_PanaSonic_18: -15684138
+      Botones_Grandes_PanaSonic_17: -634762245
+      Botones_Grandes_PanaSonic_28: -63678594
+      Botones_Grandes_PanaSonic_20: 817490588
+      Botones_Grandes_PanaSonic_14: 1245940713
+      Botones_Grandes_PanaSonic_9: -1694041023
+      Botones_Grandes_PanaSonic_32: -1790456854
+      Botones_Grandes_PanaSonic_1: 387001692
+      Botones_Grandes_PanaSonic_0: 294626155
+      Botones_Grandes_PanaSonic_19: -671372723
+      Botones_Grandes_PanaSonic_15: 1495262982
+      Botones_Grandes_PanaSonic_26: -1132013882
+      Botones_Grandes_PanaSonic_27: -281885148
+      Botones_Grandes_PanaSonic_31: -1506803023
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

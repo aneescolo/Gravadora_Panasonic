@@ -53,10 +53,10 @@ public class Custom_Manager : MonoBehaviour
         _sliderSound.value = button.GetComponent<Sound>().volume; 
     }
     
-    public void ChangeSound_VOLUME(Sound button)
+    public void ChangeSound_VOLUME()
     {    
-        button.GetComponent<Sound>().volume = _sliderSound.value; 
-        button.GetComponent<AudioSource>().volume = button.GetComponent<Sound>().volume; 
+        UI_Manager.instance.SelectedSoundBtn.volume = _sliderSound.value; 
+        UI_Manager.instance.SelectedSoundBtn.audioSource.volume = UI_Manager.instance.SelectedSoundBtn.volume; 
     }
     
     private void ChangeMaster_VOLUME(float value)
@@ -65,7 +65,7 @@ public class Custom_Manager : MonoBehaviour
         
         PlayerPrefs.SetFloat("MasterVolume", value);
     }
-    
+
     IEnumerator ChargeSavedMusicVolume()
     {
         yield return new WaitForSeconds(0.3f);

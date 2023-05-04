@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class UI_Manager : MonoBehaviour
 {
+    public static UI_Manager instance;
 
     [Header("----- Panels -----")]
     [SerializeField] private GameObject sound_custom_panel;
@@ -21,11 +22,28 @@ public class UI_Manager : MonoBehaviour
     private Sound selectedSoundBtn;
     [SerializeField] private TMP_Text selectedSoundTxt;
 
+    public Sound SelectedSoundBtn
+    {
+        get {return selectedSoundBtn; }
+        set {selectedSoundBtn = value; }
+    }
+    
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    
     public void OpenCutsomPanel()
     {
         if (opencloseCutomPanel)
         {
-            Custom_Manager.instance.ChangeSound_VOLUME(selectedSoundBtn);
             sound_custom_panel.SetActive(false);
         }
         else
