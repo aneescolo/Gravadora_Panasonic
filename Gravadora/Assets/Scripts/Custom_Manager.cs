@@ -82,12 +82,4 @@ public class Custom_Manager : MonoBehaviour
     {
         currentSound_txt.text = soundName;
     }
-    
-    public void ChangeBtnSprite(GameObject selectedBtn, Sprite image, Sprite pressed)
-    {
-        SpriteState pressedBtn = new SpriteState();
-        pressedBtn.pressedSprite = pressed;
-        selectedBtn.GetComponent<Image>().sprite = image;
-        selectedBtn.GetComponent<Button>().spriteState = pressedBtn;
-    }
 }

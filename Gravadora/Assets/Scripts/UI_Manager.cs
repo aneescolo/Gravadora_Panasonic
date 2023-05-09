@@ -20,6 +20,7 @@ public class UI_Manager : MonoBehaviour
     [Header("----- Custom Panel -----")] 
     private int selectedSound = 1;
     private Sound selectedSoundBtn;
+    private Sound listSoundBtn;
     [SerializeField] private TMP_Text selectedSoundTxt;
 
     public Sound SelectedSoundBtn
@@ -44,6 +45,7 @@ public class UI_Manager : MonoBehaviour
     {
         if (opencloseCutomPanel)
         {
+            ExchangeSoundVariables();
             sound_custom_panel.SetActive(false);
         }
         else
@@ -120,6 +122,36 @@ public class UI_Manager : MonoBehaviour
         foreach (Transform child in content_soud_list.transform)
         {
             Destroy(child.gameObject);
+        }
+    }
+
+    private void ExchangeSoundVariables()
+    {
+        Sound placeHolder = selectedSoundBtn;
+
+        selectedSoundBtn.songName = listSoundBtn.songName;
+        selectedSoundBtn.audioClip = listSoundBtn.audioClip;
+
+        foreach (var sound in Audio_Manager.instance.soundsList)
+        {
+            if (sound.songName == listSoundBtn.songName)
+            {
+                sound.songName = placeHolder.songName;
+                sound.audioClip = placeHolder.audioClip;
+                break;
+            }
+        }
+    }
+
+    public void SelectSoundEdit(string songName)
+    {
+        foreach (var sound in Audio_Manager.instance.soundsList)
+        {
+            if (sound.songName == songName)
+            {
+                listSoundBtn = sound;
+                break;
+            }
         }
     }
 }

@@ -23,6 +23,8 @@ public class Sound : MonoBehaviour
     public bool active;
 
     public AudioSource audioSource;
+
+    public Sprite highlight;
     
     public void Activate_Deactivate_MODE_MUTE()
     { 
