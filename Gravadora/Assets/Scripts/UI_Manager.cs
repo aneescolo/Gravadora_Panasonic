@@ -21,6 +21,8 @@ public class UI_Manager : MonoBehaviour
     private int selectedSound = 1;
     private Sound selectedSoundBtn;
     private Sound listSoundBtn;
+    public string songName_bck;
+    public AudioClip audioClip_bck;
     [SerializeField] private TMP_Text selectedSoundTxt;
 
     public Sound SelectedSoundBtn
@@ -34,15 +36,28 @@ public class UI_Manager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            opencloseCutomPanel = true;
         }
         else
         {
             Destroy(gameObject);
         }
     }
-    
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            selectedSoundBtn.songName = Audio_Manager.instance.soundsList[Audio_Manager.instance.soundsList.Length -1].songName;
+            listSoundBtn.songName = songName_bck;
+        }
+    }
+
     public void OpenCutsomPanel()
     {
+        opencloseCutomPanel = !opencloseCutomPanel;    
+        
         if (opencloseCutomPanel)
         {
             ExchangeSoundVariables();
@@ -53,17 +68,20 @@ public class UI_Manager : MonoBehaviour
             selectedSound = 1;
             selectedSoundTxt.text = $"{selectedSound}";
             selectedSoundBtn = Audio_Manager.instance.soundsList[selectedSound - 1];
+            songName_bck = selectedSoundBtn.songName;
+            audioClip_bck = selectedSoundBtn.audioClip;
             Custom_Manager.instance.ChargeSound_VOLUME(selectedSoundBtn);
             Custom_Manager.instance.RefreshCurrentSoundTxt(selectedSoundBtn.songName);
+            Refresh_Sound_Edit();
             sound_custom_panel.SetActive(true);
         }
-        
-        opencloseCutomPanel = !opencloseCutomPanel;    
     }
 
     private void RefreshCurrentSound()
     {
         selectedSoundBtn = Audio_Manager.instance.soundsList[selectedSound - 1];
+        songName_bck = selectedSoundBtn.songName;
+        audioClip_bck = selectedSoundBtn.audioClip;
         Custom_Manager.instance.ChargeSound_VOLUME(selectedSoundBtn);
         Custom_Manager.instance.RefreshCurrentSoundTxt(selectedSoundBtn.songName);
     }
@@ -114,6 +132,21 @@ public class UI_Manager : MonoBehaviour
                 _item_sound_list.audioClip = score.audioClip; 
             }
         }
+    }    
+    
+    public void Refresh_Sound_Edit()
+    {
+        Clean_Sound_List();
+
+        foreach (Sound score in Audio_Manager.instance.soundsList)
+        {
+            if (!score.active)
+            {
+                SelectSoundEdit(score.songName);
+                Custom_Manager.instance.RefreshSelectedSoundTxt(score.songName);
+                break;
+            }
+        }
     }
 
     /// Destrueix els elements de la llista
@@ -127,21 +160,25 @@ public class UI_Manager : MonoBehaviour
 
     private void ExchangeSoundVariables()
     {
-        Sound placeHolder = selectedSoundBtn;
-
-        selectedSoundBtn.songName = listSoundBtn.songName;
+        /*selectedSoundBtn.songName = listSoundBtn.songName;
         selectedSoundBtn.audioClip = listSoundBtn.audioClip;
 
         foreach (var sound in Audio_Manager.instance.soundsList)
         {
-            if (sound.songName == listSoundBtn.songName)
+            if (sound.songName.Equals(listSoundBtn.songName))
             {
-                sound.songName = placeHolder.songName;
-                sound.audioClip = placeHolder.audioClip;
+                sound.songName = songName_bck;
+                sound.audioClip = audioClip_bck;
                 break;
             }
-        }
+        }*/
+        
+        selectedSoundBtn.songName = listSoundBtn.songName;
+        listSoundBtn.songName = songName_bck;
+        listSoundBtn.audioClip = audioClip_bck;
     }
+
+    
 
     public void SelectSoundEdit(string songName)
     {

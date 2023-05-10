@@ -48,40 +48,4 @@ public class ChangeBtnSprite : MonoBehaviour
             gameObject.GetComponent<Button>().spriteState = pressedBtn;
         }
     }
-    
-    public void ChangeSprite_Timer(Sprite image)
-    {
-        if (!gameObject.GetComponent<Sound>().mute)
-        {
-            numberBtn = true;
-            currentCoroutine = Coroutine_ChangeSprite(image, gameObject);
-            StartCoroutine(currentCoroutine);
-        }
-    }    
-    public void ChangeSprite_List(Sprite image, GameObject sound)
-    {
-        numberBtn = true;
-        currentCoroutine = Coroutine_ChangeSprite(image, sound);
-        StartCoroutine(currentCoroutine);
-    }
-    
-    IEnumerator Coroutine_ChangeSprite(Sprite numberHighlight, GameObject btn)
-    {
-        float timer = 0;
-        Sprite imageBtn = btn.GetComponent<Image>().sprite;
-        btn.GetComponent<Image>().sprite = numberHighlight;
-
-        while (numberBtn)
-        {
-            timer += Time.deltaTime;
-            
-            if (timer >= 0.6f)
-            {
-                btn.GetComponent<Image>().sprite = imageBtn;
-                numberBtn = false;
-            }
-            
-            yield return null;
-        }
-    }
 }

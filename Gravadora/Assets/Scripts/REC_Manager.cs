@@ -17,7 +17,6 @@ public class REC_Manager : MonoBehaviour
     // Llistes per a guardar l'informació quan grabem
     public List<float> times_list;
     public List<string> soundNames_list;
-    public List<Sprite> soundSrite_list;
 
     public IEnumerator currentCoroutine;
 
@@ -34,7 +33,6 @@ public class REC_Manager : MonoBehaviour
             // Resetear les llistes
             times_list = new List<float>();
             soundNames_list = new List<string>();
-            soundSrite_list = new List<Sprite>();
             
             // Iniciem la coroutine
             currentCoroutine = Coroutine_REC_Activated();
@@ -82,7 +80,6 @@ public class REC_Manager : MonoBehaviour
             {
                 soundNames_list.Add(loopedSound.songName);
                 times_list.Add(counter);
-                soundSrite_list.Add(loopedSound.highlight);
 
                 Audio_Manager.instance.PlaySong(loopedSound.songName);
                 
@@ -131,7 +128,7 @@ public class REC_Manager : MonoBehaviour
                     Debug.Log(soundNames_list[current_index] + "/" + times_list[current_index]);
 
                     Audio_Manager.instance.PlaySong(soundNames_list[current_index]);
-                    Check_Sound_Sprite(soundSrite_list[current_index], soundNames_list[current_index]);
+                    Check_Sound_Sprite(soundNames_list[current_index]);
                     ++current_index;
                     counter = 0;
                 }
@@ -154,13 +151,13 @@ public class REC_Manager : MonoBehaviour
         }
     } 
     
-    private void Check_Sound_Sprite(Sprite image, string songname)
+    private void Check_Sound_Sprite(string songname)
     {
         foreach (Sound score in Audio_Manager.instance.soundsList)
         {
             if (score.songName == songname)
             {
-                ChangeBtnSprite.instance.ChangeSprite_List(image, score.gameObject);
+                score.ChangeSprite_List();
             }
         }
     }
@@ -182,15 +179,6 @@ public class REC_Manager : MonoBehaviour
         if (isREC_Active && !button.mute)
         {
             soundNames_list.Add(button.songName);
-        }
-    }
-   
-    public void AddNewSprite(Sound button)
-    {    
-        // Fem la comporvació per seguretat que el REC és actiu
-        if (isREC_Active && !button.mute)
-        {
-            soundSrite_list.Add(button.highlight);
         }
     }
 
