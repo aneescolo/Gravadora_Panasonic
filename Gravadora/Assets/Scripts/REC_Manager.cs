@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine.UI;
 
 public class REC_Manager : MonoBehaviour
 {
+    public static REC_Manager instance;
+    
     [Header("----- Variables -----")]
     public bool isREC_Active;
     public bool isPLAY_Active;
@@ -18,12 +21,26 @@ public class REC_Manager : MonoBehaviour
     public List<float> times_list;
     public List<string> soundNames_list;
 
+    [SerializeField] private Button playBtn;
+    [SerializeField] private Button recBtn;
+    [SerializeField] private Button pauseBtn;
+
     public IEnumerator currentCoroutine;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     public void Activate_Deactivate_MODE_REC()
     {
         // Estata que el nou valor de la variable sigui la negació de si mateixa (la bool només te dues variables)
         isREC_Active = !isREC_Active;
+        isPLAY_Active = false;
+        isPAUSE_Active = false;
+        
+        playBtn.GetComponent<ChangeBtnSprite>().ChangeSpritePlay();
+        pauseBtn.GetComponent<ChangeBtnSprite>().ChangeSpritePause();
 
         if (isREC_Active)
         {
@@ -94,6 +111,11 @@ public class REC_Manager : MonoBehaviour
     public void Activate_MODE_PLAY()
     {
         isPLAY_Active = true;
+        isREC_Active = false;
+        isPAUSE_Active = false;
+        
+        recBtn.GetComponent<ChangeBtnSprite>().ChangeSpriteREC();
+        pauseBtn.GetComponent<ChangeBtnSprite>().ChangeSpritePause();
         
         currentCoroutine = Coroutine_PLAY();
         StartCoroutine(currentCoroutine);
@@ -102,6 +124,9 @@ public class REC_Manager : MonoBehaviour
     public void Activate_PAUSE()
     {
         isPAUSE_Active = !isPAUSE_Active;
+
+        isPAUSE_Active = false;
+        recBtn.GetComponent<ChangeBtnSprite>().ChangeSpriteREC();
     }  
       
     public void Activate_LOOP()

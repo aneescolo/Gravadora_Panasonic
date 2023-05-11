@@ -48,4 +48,58 @@ public class ChangeBtnSprite : MonoBehaviour
             gameObject.GetComponent<Button>().spriteState = pressedBtn;
         }
     }
+    
+    public void ChangeSpritePlay()
+    {
+        if (REC_Manager.instance.isPLAY_Active)
+        {
+            SpriteState pressedBtn = new SpriteState();
+            pressedBtn.pressedSprite = pressedHihglight;
+            gameObject.GetComponent<Image>().sprite = imageHihglight;
+            gameObject.GetComponent<Button>().spriteState = pressedBtn;
+        }
+        else
+        {
+            SpriteState pressedBtn = new SpriteState();
+            pressedBtn.pressedSprite = pressedNormal;
+            gameObject.GetComponent<Image>().sprite = imageNormal;
+            gameObject.GetComponent<Button>().spriteState = pressedBtn;
+        }
+    }
+    
+    public void ChangeSpriteREC()
+    {
+        if (REC_Manager.instance.isREC_Active)
+        {
+            SpriteState pressedBtn = new SpriteState();
+            pressedBtn.pressedSprite = pressedHihglight;
+            gameObject.GetComponent<Image>().sprite = imageHihglight;
+            gameObject.GetComponent<Button>().spriteState = pressedBtn;
+        }
+        else
+        {
+            SpriteState pressedBtn = new SpriteState();
+            pressedBtn.pressedSprite = pressedNormal;
+            gameObject.GetComponent<Image>().sprite = imageNormal;
+            gameObject.GetComponent<Button>().spriteState = pressedBtn;
+        }
+    }
+    
+    public void ChangeSpritePause()
+    {
+        if (REC_Manager.instance.isPAUSE_Active)
+        {
+            SpriteState pressedBtn = new SpriteState();
+            pressedBtn.pressedSprite = pressedHihglight;
+            gameObject.GetComponent<Image>().sprite = imageHihglight;
+            gameObject.GetComponent<Button>().spriteState = pressedBtn;
+        }
+        else
+        {
+            SpriteState pressedBtn = new SpriteState();
+            pressedBtn.pressedSprite = pressedNormal;
+            gameObject.GetComponent<Image>().sprite = imageNormal;
+            gameObject.GetComponent<Button>().spriteState = pressedBtn;
+        }
+    }
 }

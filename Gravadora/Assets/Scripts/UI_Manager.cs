@@ -136,8 +136,6 @@ public class UI_Manager : MonoBehaviour
     
     public void Refresh_Sound_Edit()
     {
-        Clean_Sound_List();
-
         foreach (Sound score in Audio_Manager.instance.soundsList)
         {
             if (!score.active)

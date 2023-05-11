@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: 719038e282859eb42850c9bf99a848e0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cca49dee9764354588b909322edd261
+      internalID: 1557579485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 98
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081515f83e09ab147a8f6df2daaf314a
+      internalID: -1659837683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 105
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a8fccf21de0f4dad21bf73bc6fa04
+      internalID: -1639239866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 105
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cd0759af0e208428fcc5eb2bbfcde6
+      internalID: -1030447280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 101
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f11d426eea1d654880908953769c58c
+      internalID: -1063506063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 97
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacd87a1b08ae284d8593e918c5cdb3f
+      internalID: 549343651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 97
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce51733a0802d348ac6099b632cb46d
+      internalID: -1403867576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad4f5f126db1e1479f8ea1c6547bb28
+      internalID: 1120321594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 73
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75497b931f3a90e49b47a3a64d1ad9da
+      internalID: 1192951995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 87
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657b360e34ef86d45b6f8ce1a497fa9f
+      internalID: -1549492074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 87
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf3ddcd79c458e47ac8c0fcfeca82c0
+      internalID: -89090993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 79
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9fe214160e63b42894f61b7f6614a7
+      internalID: -689700727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 79
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b6cc64dc90cb24d9cb4fff72733049
+      internalID: -486290060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0154d113cd60d88499013ff6c0fb2cf1
+      internalID: 1284671437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 79
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6681ade8ed32edb409f41314975ac2d0
+      internalID: -1117405351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fb7eb4430d09440aa368871faab487
+      internalID: 830589380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 55
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da6df155d92ba147aa5c1916d8d6b76
+      internalID: 1858855488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 69
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f463a753216ba488861f69cafd74db
+      internalID: 606981975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 69
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b895dda7e28cf2449b9c13b175602455
+      internalID: -1011825325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 61
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458c06f819fe12e43ad196aebbc3002e
+      internalID: -657659407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 61
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e542314e39cbf14b8a51884918717e9
+      internalID: -1359365014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 61
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec50c176642060478faa2ed1d0becad
+      internalID: 177452088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 61
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef3014818eb0b94a82f857eba085721
+      internalID: 1868231576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3becdba30a703114aae7056f0b221469
+      internalID: -425280163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 37
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63486a70eff872c4eb875f1b10f3c17a
+      internalID: 915316711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 51
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a3c3e721431d74295258acd8a00bd8
+      internalID: 1995262419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 51
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488656919292dcc46b0e2cc2a6186c66
+      internalID: 1800748137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 43
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d3be2a02538a243897feff09ddad5f
+      internalID: 68475931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 43
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c97e547b032694a9ec6a947db58aa5
+      internalID: 346122047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 43
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2affe3e498be74c45a44275fa19859fa
+      internalID: 1169407632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 43
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927346445b7e46246801afe9466c3613
+      internalID: 1948949130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc3afbd30eea3a44b5afc612aad3fe8
+      internalID: -602488458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 19
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c394484cd3649649b0bd73078d2699d
+      internalID: -1951487530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 33
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef94bd0505773424698014baf00e5612
+      internalID: -1726382201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 33
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365a5490f125ff944a275e7a3f802cf0
+      internalID: 1389834399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_35
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 25
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1f366370774be4e85309a2a34c63fa
+      internalID: 567451564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3949b18e042b6c349a1a1594ccc9e2fb
+      internalID: 1915427894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7166d98d085d78d479d57b5633df8766
+      internalID: -1270843157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 15
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c783857f79016645a45cafe82894d86
+      internalID: 1849588490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 15
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6ab53da96f2d948a67adc9bbbc18c9
+      internalID: -561101958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172fe74e7d256b84680053613aad1943
+      internalID: 702036663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b049c83c6f94d244799022a1c75fdb90
+      internalID: 1951005302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones_Grandes_PanaSonic-export-export_42
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 101
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf16205f432acf449ca8a3f004e6fa8
+      internalID: -1435918970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Botones_Grandes_PanaSonic-export-export_0: 1557579485
+      Botones_Grandes_PanaSonic-export-export_40: 702036663
+      Botones_Grandes_PanaSonic-export-export_15: 830589380
+      Botones_Grandes_PanaSonic-export-export_12: -486290060
+      Botones_Grandes_PanaSonic-export-export_34: 1389834399
+      Botones_Grandes_PanaSonic-export-export_37: -1270843157
+      Botones_Grandes_PanaSonic-export-export_14: -1117405351
+      Botones_Grandes_PanaSonic-export-export_28: 346122047
+      Botones_Grandes_PanaSonic-export-export_8: 1192951995
+      Botones_Grandes_PanaSonic-export-export_16: 1858855488
+      Botones_Grandes_PanaSonic-export-export_17: 606981975
+      Botones_Grandes_PanaSonic-export-export_13: 1284671437
+      Botones_Grandes_PanaSonic-export-export_38: 1849588490
+      Botones_Grandes_PanaSonic-export-export_3: -1030447280
+      Botones_Grandes_PanaSonic-export-export_2: -1639239866
+      Botones_Grandes_PanaSonic-export-export_4: -1063506063
+      Botones_Grandes_PanaSonic-export-export_32: -1951487530
+      Botones_Grandes_PanaSonic-export-export_36: 1915427894
+      Botones_Grandes_PanaSonic-export-export_1: -1659837683
+      Botones_Grandes_PanaSonic-export-export_10: -89090993
+      Botones_Grandes_PanaSonic-export-export_18: -1011825325
+      Botones_Grandes_PanaSonic-export-export_19: -657659407
+      Botones_Grandes_PanaSonic-export-export_24: 915316711
+      Botones_Grandes_PanaSonic-export-export_42: -1435918970
+      Botones_Grandes_PanaSonic-export-export_25: 1995262419
+      Botones_Grandes_PanaSonic-export-export_30: 1948949130
+      Botones_Grandes_PanaSonic-export-export_21: 177452088
+      Botones_Grandes_PanaSonic-export-export_20: -1359365014
+      Botones_Grandes_PanaSonic-export-export_41: 1951005302
+      Botones_Grandes_PanaSonic-export-export_35: 567451564
+      Botones_Grandes_PanaSonic-export-export_26: 1800748137
+      Botones_Grandes_PanaSonic-export-export_6: -1403867576
+      Botones_Grandes_PanaSonic-export-export_31: -602488458
+      Botones_Grandes_PanaSonic-export-export_5: 549343651
+      Botones_Grandes_PanaSonic-export-export_7: 1120321594
+      Botones_Grandes_PanaSonic-export-export_33: -1726382201
+      Botones_Grandes_PanaSonic-export-export_11: -689700727
+      Botones_Grandes_PanaSonic-export-export_29: 1169407632
+      Botones_Grandes_PanaSonic-export-export_23: -425280163
+      Botones_Grandes_PanaSonic-export-export_9: -1549492074
+      Botones_Grandes_PanaSonic-export-export_39: -561101958
+      Botones_Grandes_PanaSonic-export-export_27: 68475931
+      Botones_Grandes_PanaSonic-export-export_22: 1868231576
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
