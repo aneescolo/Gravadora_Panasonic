@@ -172,6 +172,7 @@ public class UI_Manager : MonoBehaviour
         }*/
         
         selectedSoundBtn.songName = listSoundBtn.songName;
+        selectedSoundBtn.audioClip = listSoundBtn.audioClip;
         listSoundBtn.songName = songName_bck;
         listSoundBtn.audioClip = audioClip_bck;
     }

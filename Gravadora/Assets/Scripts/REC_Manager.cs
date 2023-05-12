@@ -124,9 +124,6 @@ public class REC_Manager : MonoBehaviour
     public void Activate_PAUSE()
     {
         isPAUSE_Active = !isPAUSE_Active;
-
-        isPAUSE_Active = false;
-        recBtn.GetComponent<ChangeBtnSprite>().ChangeSpriteREC();
     }  
       
     public void Activate_LOOP()
@@ -139,6 +136,8 @@ public class REC_Manager : MonoBehaviour
         int current_index = 0;
         int maxIndex = times_list.Count;
 
+
+        
         while (isPLAY_Active)
         {
             if (!isPAUSE_Active)
@@ -168,14 +167,15 @@ public class REC_Manager : MonoBehaviour
                 else
                 {
                     isPLAY_Active = false;
+                    playBtn.GetComponent<ChangeBtnSprite>().ChangeSpritePlay();
                     yield break;
                 }
             }
-            
+           
             yield return null;
         }
-    } 
-    
+    }
+
     private void Check_Sound_Sprite(string songname)
     {
         foreach (Sound score in Audio_Manager.instance.soundsList)

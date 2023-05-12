@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1790456854, guid: 1c19e45b9c8dc6d43a963425a47f25b7, type: 3}
+  m_Sprite: {fileID: -1435918970, guid: 719038e282859eb42850c9bf99a848e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6526,7 +6526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   songName: Sound1
-  audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
+  audioClip: {fileID: 8300000, guid: 86d3d764a36670a4abec08f6702819a9, type: 3}
   volume: 0
   playOnAwake: 0
   loop: 0
@@ -7568,7 +7568,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1790456854, guid: 1c19e45b9c8dc6d43a963425a47f25b7, type: 3}
+  m_Sprite: {fileID: -689700727, guid: 719038e282859eb42850c9bf99a848e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
