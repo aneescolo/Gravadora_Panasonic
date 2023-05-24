@@ -34,8 +34,6 @@ public class Custom_Manager : MonoBehaviour
         {
             StartCoroutine(ChargeSavedMusicVolume());
         }
-        
-        _sliderMaster.onValueChanged.AddListener(val => ChangeMaster_VOLUME(val));
     }
     
     public void Update_MODE_MUTE(GameObject button)
@@ -59,18 +57,19 @@ public class Custom_Manager : MonoBehaviour
         UI_Manager.instance.SelectedSoundBtn.audioSource.volume = UI_Manager.instance.SelectedSoundBtn.volume; 
     }
     
-    private void ChangeMaster_VOLUME(float value)
+    public void ChangeMaster_VOLUME()
     {
-        AudioListener.volume = value;
+        AudioListener.volume = _sliderMaster.value;
+        Debug.Log(PlayerPrefs.GetFloat("MasterVolume"));
         
-        PlayerPrefs.SetFloat("MasterVolume", value);
+        PlayerPrefs.SetFloat("MasterVolume", _sliderMaster.value);
     }
 
     IEnumerator ChargeSavedMusicVolume()
     {
         yield return new WaitForSeconds(0.3f);
-        ChangeMaster_VOLUME(PlayerPrefs.GetFloat("MasterVolume"));
         _sliderMaster.value = PlayerPrefs.GetFloat("MasterVolume");
+        AudioListener.volume = _sliderMaster.value;
     }
 
     public void RefreshSelectedSoundTxt(string soundName)

@@ -206,7 +206,12 @@ public class REC_Manager : MonoBehaviour
             soundNames_list.Add(button.songName);
         }
     }
-
+    
+    public void PlaySound(Sound button)
+    {    
+        Audio_Manager.instance.PlaySong(button.songName);
+    }
+    
     public void EXIT()
     {
          Application.Quit();

@@ -8,6 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6d9b197a0b824e1d8ee671e1e014c4d1fe00/2a/e77e1183/AudioListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bae255e3e08e46f7bc2fbd23dde96338158800/0c/db3b5ff3/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeBtnSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Custom_Manager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,6 +111,8 @@
       <workItem from="1683637649098" duration="6100000" />
       <workItem from="1683826791420" duration="3864000" />
       <workItem from="1683900707621" duration="1895000" />
+      <workItem from="1684242473811" duration="1218000" />
+      <workItem from="1684243729426" duration="1473000" />
     </task>
     <servers />
   </component>

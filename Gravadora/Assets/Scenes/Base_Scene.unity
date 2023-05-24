@@ -590,7 +590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound4
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -672,6 +672,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 96094389}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1089,7 +1101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound7
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -1171,6 +1183,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 182784488}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1405,6 +1429,7 @@ GameObject:
   - component: {fileID: 241400950}
   - component: {fileID: 241400952}
   - component: {fileID: 241400951}
+  - component: {fileID: 241400953}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -1455,7 +1480,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c63fd1ac1b6e1924cb8e95ec10f93c30, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3ea96691e080b644182bbc082b746806, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1473,6 +1498,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241400949}
   m_CullTransparentMesh: 1
+--- !u!95 &241400953
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241400949}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 24e5764b3607c4a448d5ca3ab8f9066b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &255329438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3552,7 +3597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound6
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -3634,6 +3679,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 710488232}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4495,7 +4552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound5
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -4577,6 +4634,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 877860480}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5127,7 +5196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound9
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -5209,6 +5278,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1098397039}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6475,6 +6556,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1575471883}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1575471881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6527,7 +6620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound1
   audioClip: {fileID: 8300000, guid: 86d3d764a36670a4abec08f6702819a9, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -7205,7 +7298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound2
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -7287,6 +7380,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1696524844}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7986,10 +8091,22 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 330095836}
+        m_TargetAssemblyTypeName: Custom_Manager, Assembly-CSharp
+        m_MethodName: ChangeMaster_VOLUME
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1907471273
 GameObject:
   m_ObjectHideFlags: 0
@@ -8184,7 +8301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: Sound8
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -8266,6 +8383,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1910651829}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9213,7 +9342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songName: pepe
   audioClip: {fileID: 8300000, guid: 20e8338579897094f8ed393cde9315b1, type: 3}
-  volume: 0
+  volume: 1
   playOnAwake: 0
   loop: 0
   mute: 0
@@ -9295,6 +9424,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 750284288}
+        m_TargetAssemblyTypeName: REC_Manager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2081442984}
+          m_ObjectArgumentAssemblyTypeName: Sound, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
