@@ -129,7 +129,7 @@ public class UI_Manager : MonoBehaviour
                 Item_sound_list _item_sound_list;
                 _item_sound_list = Instantiate(item_soud_list, content_soud_list.transform);
                 _item_sound_list.songName = score.songName;
-                _item_sound_list.audioClip = score.audioClip; 
+                _item_sound_list.audioClip = score.audioClip;
             }
         }
     }    
@@ -173,6 +173,7 @@ public class UI_Manager : MonoBehaviour
         
         selectedSoundBtn.songName = listSoundBtn.songName;
         selectedSoundBtn.audioClip = listSoundBtn.audioClip;
+        selectedSoundBtn.audioSource.clip = selectedSoundBtn.audioClip;
         listSoundBtn.songName = songName_bck;
         listSoundBtn.audioClip = audioClip_bck;
     }

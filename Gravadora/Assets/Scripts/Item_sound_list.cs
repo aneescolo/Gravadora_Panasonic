@@ -8,6 +8,7 @@ public class Item_sound_list : MonoBehaviour
 {
     public string songName;
     public AudioClip audioClip;
+    [SerializeField] private AudioSource _audioSource;
 
     void Start()
     {
@@ -18,7 +19,7 @@ public class Item_sound_list : MonoBehaviour
 
     private void PlaySound()
     {
-        gameObject.GetComponent<AudioSource>().PlayOneShot(audioClip);
+        _audioSource.PlayOneShot(audioClip);
     }
     
     private void Refresh_Selected_Sound()

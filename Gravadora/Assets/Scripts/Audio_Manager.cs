@@ -60,4 +60,17 @@ public class Audio_Manager : MonoBehaviour
             }
         }
     }
+    
+    public void PlayAudio(Sound sound)
+    {
+        // Busquem el que tingui el mateix nom que hem passat
+        foreach (Sound currentSound in soundsList)
+        {
+            if (currentSound.songName == sound.songName)
+            {
+                currentSound.audioSource.Play();
+                break;
+            }
+        }
+    }
 }
